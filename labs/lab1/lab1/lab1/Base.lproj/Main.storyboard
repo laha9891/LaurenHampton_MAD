@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you do keep your homework from being eaten on the farm? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5R-4G-dpS">
+                                <rect key="frame" x="5" y="25" width="1014" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="c7B-gd-auK"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="w1H-8B-8fp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yys-Wo-FM3">
+                                <rect key="frame" x="472.5" y="102" width="66" height="45"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="How?"/>
+                                <connections>
+                                    <action selector="changeThings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ro4-yA-mNY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goats1" translatesAutoresizingMaskIntoConstraints="NO" id="yUd-j7-XVV">
+                                <rect key="frame" x="334.5" y="70" width="355" height="483"/>
+                            </imageView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dB-GQ-Nkj">
+                                <rect key="frame" x="82" y="1260" width="860" height="31"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="Back to Question"/>
+                                <connections>
+                                    <action selector="changeThings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oDQ-as-xWY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yUd-j7-XVV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Ni-NU-WC3"/>
+                            <constraint firstItem="x5R-4G-dpS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="25" id="KjS-Hl-wZV"/>
+                            <constraint firstItem="yUd-j7-XVV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="OYa-vd-WUF"/>
+                            <constraint firstAttribute="trailing" secondItem="5dB-GQ-Nkj" secondAttribute="trailing" constant="82" id="QDq-aJ-l98"/>
+                            <constraint firstItem="x5R-4G-dpS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="cg6-M8-jQj"/>
+                            <constraint firstItem="Yys-Wo-FM3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="hEz-QG-Q9e"/>
+                            <constraint firstItem="x5R-4G-dpS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="knB-c0-SZd"/>
+                            <constraint firstItem="Yys-Wo-FM3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-6.5" id="lbR-3t-pgM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5dB-GQ-Nkj" secondAttribute="bottom" constant="75" id="pV7-rJ-IgT"/>
+                            <constraint firstItem="5dB-GQ-Nkj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rEg-mU-Pfx"/>
+                            <constraint firstItem="5dB-GQ-Nkj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="upM-ZP-YwU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="joke" destination="x5R-4G-dpS" id="70p-FY-fQr"/>
+                        <outlet property="picture" destination="yUd-j7-XVV" id="z5T-c2-69I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="goats1" width="355" height="483"/>
+    </resources>
+</document>
