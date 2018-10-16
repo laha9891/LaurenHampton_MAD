@@ -105,15 +105,15 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
                 result = numdist*11520
                 foodmap.image=UIImage(named: "tacoFoodMap")
             }
-            if self.foodTextField.text == "Corn"{
+            else if self.foodTextField.text == "Corn"{
                 result = numdist*9051
                 foodmap.image=UIImage(named: "cornFoodMap")
             }
-            if self.foodTextField.text == "M&Ms"{
+            else if self.foodTextField.text == "M&Ms"{
                 result = numdist*158400
                 foodmap.image=UIImage(named: "mmFoodMap")
             }
-            if self.foodTextField.text == "Watermelons"{
+            else if self.foodTextField.text == "Watermelons"{
                 result = numdist*2534
                 foodmap.image=UIImage(named: "watermelonFoodMap")
             }
@@ -128,15 +128,15 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
                 result = numdist*2.18
                 foodmap.image=UIImage(named: "tacoFoodMap")
             }
-            if self.foodTextField.text == "Corn"{
+            else if self.foodTextField.text == "Corn"{
                 result = numdist*1.71
                 foodmap.image=UIImage(named: "cornFoodMap")
             }
-            if self.foodTextField.text == "M&Ms"{
+            else if self.foodTextField.text == "M&Ms"{
                 result = numdist*30
                 foodmap.image=UIImage(named: "mmFoodMap")
             }
-            if self.foodTextField.text == "Watermelons"{
+            else if self.foodTextField.text == "Watermelons"{
                 result = numdist*0.48
                 foodmap.image=UIImage(named: "watermelonFoodMap")
             }
@@ -151,15 +151,15 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
                 result = numdist/5.5
                 foodmap.image=UIImage(named: "tacoFoodMap")
             }
-            if self.foodTextField.text == "Corn"{
+            else if self.foodTextField.text == "Corn"{
                 result = numdist/7
                 foodmap.image=UIImage(named: "cornFoodMap")
             }
-            if self.foodTextField.text == "M&Ms"{
+            else if self.foodTextField.text == "M&Ms"{
                 result = numdist/0.4
                 foodmap.image=UIImage(named: "mmFoodMap")
             }
-            if self.foodTextField.text == "Watermelons"{
+            else if self.foodTextField.text == "Watermelons"{
                 result = numdist/25
                 foodmap.image=UIImage(named: "watermelonFoodMap")
             }
